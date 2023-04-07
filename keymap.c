@@ -49,14 +49,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                                     KC_NO  , KC_NO  , SPC_SYM,BSPC_NUM, KC_ESC     , KC_DEL ,ENTR_NUM, TAB_SYM, KC_NO    , KC_NO  ),
 
     [_SYM] = LAYOUT(KC_NO  , KC_EXLM, KC_AT  , KC_LCBR, KC_RCBR, KC_GRV ,                                     KC_BSLS, KC_DQT  , KC_UNDS , KC_GT  , KC_ASTR, KC_NO  ,
-                    KC_NO  , KC_HASH, SFT_DLR,ALT_LPRN,CTL_RPRN, KC_PIPE,                                     KC_EQL , CTL_QUOT, ALT_MINS, KC_LSFT, KC_PLUS, KC_NO  ,
+                    KC_NO  , KC_HASH, KC_DLR , KC_LPRN, KC_RPRN, KC_PIPE,                                     KC_EQL , KC_QUOT , KC_MINS , KC_LSFT, KC_PLUS, KC_NO  ,
                     KC_NO  , KC_PERC, KC_CIRC, KC_LBRC, KC_RBRC, KC_TILD, KC_NO  , KC_NO  , KC_NO  , KC_NO  , KC_AMPR, KC_NO   , KC_NO   , KC_LT  , KC_NO  , KC_NO  ,
                                                KC_NO  , KC_TRNS, KC_TRNS, KC_TRNS, KC_NO  , KC_NO  , KC_TRNS, KC_TRNS, KC_TRNS , KC_NO  ),
 
-    [_NUM] = LAYOUT(KC_NO  , KC_NO  , KC_NO  , KC_NO  , KC_GUI , KC_NO  ,                                     KC_NO  , KC_7   , KC_8   , KC_9   , KC_ASTR, KC_NO  ,
-                    KC_NO  , KC_NO  , KC_LSFT, KC_LALT, KC_LCTL, KC_NO  ,                                     KC_EQL , KC_4   , KC_5   , KC_6   , KC_PLUS, KC_NO  ,
-                    KC_NO  , KC_NO  , KC_NO  , KC_NO  , KC_NO  , KC_NO  , KC_NO  , KC_NO  , KC_NO  , KC_NO  , KC_AMPR, KC_1   , KC_2   , KC_3   , KC_BSLS, KC_NO  ,
-                                               KC_NO  , KC_TRNS, KC_TRNS, KC_TRNS, KC_NO  , KC_NO  , KC_TRNS, KC_TRNS, KC_0   , KC_DOT),
+    [_NUM] = LAYOUT(KC_NO  , KC_NO  , KC_NO  , KC_NO  , KC_LGUI, KC_NO  ,                                     KC_NO  , KC_7   , KC_8   , KC_9   , KC_NO  , KC_NO  ,
+                    KC_NO  , KC_NO  , KC_LSFT, KC_LALT, KC_LCTL, KC_NO  ,                                     KC_NO  , KC_4   , KC_5   , KC_6   , KC_NO  , KC_NO  ,
+                    KC_NO  , KC_NO  , KC_NO  , KC_NO  , KC_NO  , KC_NO  , KC_NO  , KC_NO  , KC_NO  , KC_NO  , KC_0   , KC_1   , KC_2   , KC_3   , KC_NO  , KC_NO  ,
+                                               KC_NO  , KC_TRNS, KC_TRNS, KC_TRNS, KC_NO  , KC_NO  , KC_TRNS, KC_TRNS, KC_DOT , KC_NO ),
 
     [_MEDIA] = LAYOUT(KC_NO  , KC_NO  , KC_NO  , KC_NO  , KC_NO  , KC_NO  ,                                                KC_VOLU, KC_NO  , KC_NO  , KC_NO  , KC_NO  , KC_NO ,
                       KC_NO  , KC_NO  , KC_NO  , KC_NO  , KC_NO  , KC_NO  ,                                                KC_VOLD, KC_MRWD, KC_MFFD, KC_NO  , KC_NO  , KC_NO ,
